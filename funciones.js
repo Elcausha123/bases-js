@@ -1,0 +1,49 @@
+function saludar() {
+   // console.log("Hola");
+   // const numeros = [1, 2, 3];
+   // console.log(numeros);
+   //    return [1, 2, 3];
+    
+}
+
+//saludar();
+
+var saludar = 1
+//console.log(saludar); 
+
+
+const saludar2 = function() {
+    console.log("Hola desde saludar2");
+}
+
+//saludar2();
+
+const saludar3 = () => {
+    console.log("Hola desde saludar3");
+}
+
+//saludar3();
+
+const saludar4 = () => console.log("Hola desde saludar4");
+
+
+//saludar4();
+
+
+function sumar(a,b) {
+    console.log(a + b);
+}
+
+//sumar(1, 2);
+
+const sumar2 = (a, b) => console.log(a + b);
+sumar2(1, 2);
+
+function sumar(a, b) {
+    const resultado = a + b;
+    console.log(resultado);
+}
+
+const getAleatorio = () => Math.random();
+console.log(getAleatorio());
+
